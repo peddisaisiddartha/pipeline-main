@@ -89,7 +89,7 @@ function createPeerConnection() {
 // Connect to signaling server (using a simple WebSocket approach)
 function connectSignaling() {
     // Using local signaling server
-    const WS_URL = 'ws://localhost:3001';
+    const WS_URL = 'https://pipeline-main.onrender.com:3001';
     
     signalingSocket = new WebSocket(WS_URL);
 
